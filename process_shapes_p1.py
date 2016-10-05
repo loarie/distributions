@@ -18,9 +18,10 @@ from osgeo.gdalconst import *
 startTime = time.time()
 
 #inputs are a taxon_id (using the public API to get observations at the moment)...
+taxon_id = 60983
 taxon_id = 51080
 #...and the set of atlas presence places (place_ids) which is hardcoded here
-place_ids = [7085, 8501, 10, 46, 14]
+place_ids = [2764, 854, 1919, 2319, 1250, 1527, 1921, 418]
 
 wd = '/Users/scottloarie/niche_models/'
 
@@ -36,7 +37,7 @@ for row in data["results"]:
  presences.append([float(coords[0]), float(coords[1])])
 
 for page in range(1,pages):
- url = "http://api.inaturalist.org/v1/observations?verifiable=true&taxon_id="+str(taxon_id)+"&page="+str(page)
+ url = "http://api.inaturalist.org/v1/observations?verifiable=true&taxon_id="+str(taxon_id)+"&page="+str(page+1)
  response = urllib.urlopen(url)
  data = json.loads(response.read())
  for row in data["results"]:
