@@ -19,7 +19,6 @@ startTime = time.time()
 
 #inputs are a taxon_id (using the public API to get observations at the moment)...
 taxon_id = 60983
-taxon_id = 51080
 #...and the set of atlas presence places (place_ids) which is hardcoded here
 place_ids = [2764, 854, 1919, 2319, 1250, 1527, 1921, 418]
 

@@ -1,5 +1,5 @@
 # Directory setup
-Make a directory called raster_data and fill it with the 17 rasters you can find here XXX
+Make a directory called raster_data and fill it with the 17 rasters you can find here https://dl.dropboxusercontent.com/u/1288081/raster_data/rasters.zip
 also make a directory called out_data for the output data.
 
 Step 1. Run process_shapes_p1.py
