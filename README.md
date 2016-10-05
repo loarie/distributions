@@ -2,6 +2,9 @@
 Make a directory called raster_data and fill it with the 17 rasters you can find here XXX
 also make a directory called out_data for the output data.
 
+Step 1. Run process_shapes_p1.py
+Step 2. Run process_shapes_p2.py
+
 # Dependencies
 fit_model.r runs in R and takes a output.csv as an input, runs a model, an produces coefficients (coefs) used by the python scripts
 process_shapes_p1.py runs in Python and takes a taxon_id and a list of atlas listings as in puts and along with rasters in raster_data produces the table (output.csv) needed to run the model
