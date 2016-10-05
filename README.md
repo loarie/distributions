@@ -44,3 +44,7 @@ sourceRaster = None
 
 add adding a 0.1 degree dissolved buffer in qgis
 
+Here's some preliminary model results
+![alt tag](https://c2.staticflickr.com/6/5506/30010052112_58caf9523a_o.png)
+![alt tag](https://c2.staticflickr.com/8/7470/30124463035_fb7fdd86f8_o.png)
+![alt tag](https://c1.staticflickr.com/9/8415/30010049942_7aa65d0dcb_o.png)
